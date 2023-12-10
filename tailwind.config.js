@@ -14,6 +14,7 @@ export default withMT({
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
+      'cream': '#FFFAED',
       'black': '#232528',
       'blue': '#657ED4',
       'gray': '#C4CBCA'

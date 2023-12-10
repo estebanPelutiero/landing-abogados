@@ -5,9 +5,9 @@ import Layout from './Layout';
 
 const Hero = () => {
   return (
-    <div className="lg:bg-[url('./assets/images/3.webp')] bg-[url('./assets/images/heroMob.webp')] bg-cover bg-no-repeat bg-center z-[-1] h-[100vh]">
+    <div className="lg:bg-[url('./assets/images/about.jpg')] bg-[url('./assets/images/about.jpg')] bg-cover bg-no-repeat bg-center z-[-1] h-[100vh]">
       <div className="overflow-x-hidden absolute z-0 w-full h-[100vh] backdrop-brightness-[.5]"></div>
-      <Layout id={'home'} className="relative z-10 flex items-center">
+      <Layout id={'nosotros'} className="relative z-10 flex items-center">
           <div className="w-full md:w-[60%] lg:w-[60%]">
             <div className="mb-6">
               <h1 className="text-cream text-7xl md:text-8xl font-semibold font-serif">

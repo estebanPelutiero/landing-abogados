@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import LogoAlone from '../assets/svgs/LogoAlone.svg';
+import LogoName from '../assets/svgs/LogoName.svg';
 
 import {
   Collapse,
@@ -8,7 +10,6 @@ import {
 } from "@material-tailwind/react";
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Logo from "../assets/svgs/logo.svg";
 
 const NavList = () => {
   return (
@@ -57,7 +58,7 @@ const NavList = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          to="nosotros"
+          to="areas"
           duration={1300}
           className="cursor-pointer flex items-center font-poppins text-gray font-normal text-base transition-colors"
         >
@@ -118,8 +119,14 @@ const Nav = () => {
               duration={1300}
               >
                 <img
-                  className="w-12"
-                  src={Logo}
+                  className="hidden lg:block lg:w-52"
+                  src={LogoName}
+                  loading="lazy"
+                  alt="Bastión Jiu Jitsu"
+                />
+                <img
+                  className="block lg:hidden w-12"
+                  src={LogoAlone}
                   loading="lazy"
                   alt="Bastión Jiu Jitsu"
                 />
